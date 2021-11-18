@@ -1,0 +1,28 @@
+{
+  "name": "pract_bootstrap",
+  "version": "1.0.0",
+  "description": "basic scss template",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass -r --output-style compressed scss/style.scss -o css",
+    "watch": "npm run build && npm run build -- -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorChepurnyi/bootstrap_pract1.git"
+  },
+  "keywords": [
+    "scss",
+    "css"
+  ],
+  "author": "Ihor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorChepurnyi/bootstrap_pract1/issues"
+  },
+  "homepage": "https://github.com/IgorChepurnyi/bootstrap_pract1#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
